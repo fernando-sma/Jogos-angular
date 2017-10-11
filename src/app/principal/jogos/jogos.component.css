@@ -1,0 +1,33 @@
+
+.cardi {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: .3s;
+    width: 60%;
+}
+
+
+
+.imagem{
+    height: 30%;
+    width: 100%;
+}
+
+.cardi:hover {
+    box-shadow: 0 8px 16px 0 green;
+    transition: .3s;
+    
+}
+
+.containe {
+    padding: 2px 16px;
+    height: 50%;
+}
+
+.containe:hover {
+    box-shadow: 0 8px 16px 0 blue;
+    
+}
+
+a:link, :visited{
+    color: black;
+}

@@ -1,0 +1,16 @@
+<div class="tudo">
+  <a [routerLink]="['/jogos' , jogos.id]">
+    <h2>{{jogos.nome}}</h2>
+
+    <div class="cardi">
+
+
+      <img class="imagem" src="{{jogos.img}}" alt="{{jogos.censura}}">
+      <div class="containe">
+        <h4><b>{{jogos.classificacao}}</b></h4>
+        <p>{{jogos.descricao}}</p>
+      </div>
+
+    </div>
+  </a>
+</div>
