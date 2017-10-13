@@ -1,9 +1,8 @@
 {
     "openedPathsList": {
         "workspaces": [
-            "/home/estagio-13/ionic/meuapp2",
-            "/home/estagio-13/ionic/meuapp2",
-            "/var/www/html/angular/meat-app-starter"
+            "/var/www/html/angular/meat-app-starter",
+            "/home/estagio-13/ionic/meuapp2"
         ],
         "files": []
     },
@@ -66,7 +65,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+Shift+W",
+            "label": "Ctrl+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
