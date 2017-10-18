@@ -2,6 +2,7 @@
     "openedPathsList": {
         "workspaces": [
             "/var/www/html/angular/meat-app-starter",
+            "/var/www/html/angular",
             "/home/estagio-13/ionic/meuapp2"
         ],
         "files": []
@@ -65,7 +66,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -445,16 +446,16 @@
         "openedWindows": [],
         "openedFolders": [],
         "lastActiveWindow": {
-            "folderPath": "/home/estagio-13/ionic/meuapp2",
-            "backupPath": "/var/www/html/angular/meat-app-starter/~/.vscode-root/Backups/81fff4c17054ec9cc32fb59dd658380c",
+            "folderPath": "/var/www/html/angular/meat-app-starter",
+            "backupPath": "/var/www/html/angular/meat-app-starter/~/.vscode-root/Backups/823053558e70c10ecc14a708fedf286b",
             "uiState": {
                 "mode": 1,
-                "x": 657,
+                "x": 683,
                 "y": 52,
-                "width": 709,
+                "width": 683,
                 "height": 663
             }
         }
     },
-    "pickerWorkingDir": "/home/estagio-13/ionic"
+    "pickerWorkingDir": "/var/www/html"
 }

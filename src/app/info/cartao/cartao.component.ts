@@ -10,6 +10,6 @@ export class CartaoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
+  } 
 
 }

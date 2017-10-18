@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit , Input , Output, EventEmitter} from '@angular/core';
+import {item} from './item.model'
 @Component({
   selector: 'mt-item',
   templateUrl: './item.component.html',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemComponent implements OnInit {
 
+  @Input() item: item;
+  @Output() adicionar = new EventEmitter()
+  
   constructor() { }
 
   ngOnInit() {
+    this.adicionar.emit(this.item);
   }
 
 }

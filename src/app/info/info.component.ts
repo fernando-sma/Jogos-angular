@@ -9,10 +9,12 @@ import {ActivatedRoute} from '@angular/router'
 })
 export class InfoComponent implements OnInit {
 
+jogos:jogos
+
   constructor(private jogosService: jogosService, private rota: ActivatedRoute) { }
 
   ngOnInit() {
-     // this.jogosService.busca()
+      this.jogosService.busca(this.rota.snapshot.params['id']).subscribe(jogos => this.jogos = jogos)
   }
 
 }

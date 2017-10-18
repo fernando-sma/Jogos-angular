@@ -6,6 +6,7 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import {erro} from '../../../../erro';
 import 'rxjs/add/operator/catch';
+import {item} from '../../info/item/item.model'
 @Injectable()
 export class jogosService {
 
@@ -19,8 +20,17 @@ export class jogosService {
   busca(id: string): Observable<jogos>{
     return this.http.get(`${API}/jogos/${id}`).map(Response => Response.json()).catch(erro.handlerErro);
   }
+
+  avaliacoes(id: string):Observable<any>{
+    return this.http.get(`${API}/restaurant/${id}/avaliacoes`).map(response => response.json()).catch(erro.handlerErro);
+  }
+
+  menu(id: string):Observable<item[]>{
+      return this.http.get(`${API}/jogos/${id}/menu`).map(response => response.json()).catch(erro.handlerErro);
+  }
 }
 
+  
 
 /*
 

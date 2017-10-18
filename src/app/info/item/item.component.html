@@ -1,3 +1,12 @@
-<p>
-  item works!
-</p>
+<div class="menu-item-info-box">
+  <span class="menu-item-info-box-icon">
+    <img [src]="itemMenu.img"></span>
+
+  <div class="menu-item-info-box-content">
+    <span class="menu-item-info-box-text">{{itemMenu?.nome}}</span>
+    <span class="menu-item-info-box-detail">{{itemMenu?.descricao}}</span>
+    <span class="menu-item-info-box-price">{{itemMenu?.valor | currency: 'BRL': true}}</span>
+    <a (click) = "emitAddEvent()" class=""><i class="fa fa-plus-circle"></i> Adicionar</a>
+  </div>
+  <!-- /.info-box-content -->
+</div>

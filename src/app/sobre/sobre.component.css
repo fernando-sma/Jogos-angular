@@ -1,4 +1,12 @@
 .bla:hover{
-    background-image: url('../../assets/img/foto.jpg');
-    font-size: 5px;
+    transition: margin-left 4s, margin-left 1s, margin-top 2s;
+    font-family: 'purisa';
+    color: royalblue;
+    margin-left: 50%;
 }
+
+.click:hover{
+    transition: margin-left 0.5s,;
+    margin-left: 50%;
+}
+

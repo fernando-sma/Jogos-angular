@@ -16,6 +16,7 @@ import { InfoComponent } from './info/info.component';
 import { MenuComponent } from './info/menu/menu.component';
 import { CartaoComponent } from './info/cartao/cartao.component';
 import { ItemComponent } from './info/item/item.component';
+import { AvaliacoesComponent } from '../app/principal/avaliacoes/avaliacoes.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { ItemComponent } from './info/item/item.component';
     InfoComponent,
     MenuComponent,
     CartaoComponent,
-    ItemComponent
+    ItemComponent,
+    AvaliacoesComponent
   ],
   imports: [
     BrowserModule,
